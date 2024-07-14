@@ -818,6 +818,7 @@ void handleDirection(float rotation, float speedCar){
     memcpy(data, &rotation, sizeof(float));
     data[sizeof(float)] = 0xFF;
     memcpy(data + sizeof(float) + 1, &speedCar, sizeof(float));
+    Serial.print("") // Something for debugging
     Serial.write(data, sizeof(data));
     
 }

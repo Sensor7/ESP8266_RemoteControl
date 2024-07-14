@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repostory is for remote control using esp8266. Esp8266 is seted as AP mode and using wifi name: Mowwifi and wifi password: 123456789.
+This repostory is for a general remote control tool using esp8266. Esp8266 is seted as AP mode and using wifi name: Mowwifi and wifi password: 123456789.
 There is a embedded html website inside the .ino, te website contains 3 buttons(for adjustig moter speed), two seperate joysticks, left one is for forward and backward(linear speed), right one is for left and right(rotation speed) and a all direction joystick for both control. The website can be entered with url: 192.168.4.1
 
 ## Libraries or Configurations in Arduino IDE
