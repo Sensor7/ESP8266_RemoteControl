@@ -679,10 +679,10 @@ const char index_html[] PROGMEM = R"rawliteral(
                     let steeringValue = (joystick.x - center.x) / 100;
                     if (steeringValue < 0) {
                         direction = 'L';
-                        rotation = steeringValue/100;
+                        rotation = steeringValue;
                     } else if (steeringValue > 0) {
                         direction = 'R';
-                        rotation = steeringValue/100;
+                        rotation = steeringValue;
                     } else {
                         direction = 'S';
                         rotation = 0;
